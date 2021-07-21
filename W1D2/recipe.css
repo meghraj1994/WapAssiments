@@ -34,7 +34,7 @@ a:link {
 }
 
 .li-icon {
-  list-style-image: url("/recipeImages/pie_bullet.png");
+  list-style-image: url("../recipeImages/pie_bullet.png");
 }
 .validator {
   text-align: right;
