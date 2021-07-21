@@ -1,0 +1,26 @@
+/* background color for whole body */
+body {
+  background-color: tan;
+}
+
+/* color for class color-header */
+.color-header {
+  color: blue;
+  font-family: "Times New Roman", Times, serif;
+}
+.text-decoration {
+  text-decoration: none;
+}
+
+a:hover {
+  color: hotpink;
+  text-decoration: underline;
+}
+
+p::first-letter {
+  font-size: 2em;
+}
+
+.dt-color {
+  color: yellow;
+}

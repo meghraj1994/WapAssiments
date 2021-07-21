@@ -1,0 +1,41 @@
+h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #a4a400;
+  background-color: #f0f0f0;
+  font-size: 18pt;
+}
+#header-aligment {
+  text-align: center;
+  font-weight: bold;
+  font-size: 22pt;
+}
+
+.highlight-text {
+  font-style: italic;
+  background-color: #ffffa8;
+}
+body {
+  font-family: Georgia, Garamond, serif, sans-serif;
+  color: #404040;
+  font-size: 11pt;
+  background-image: url(/recipeImages/silverware.jpg);
+  background-size: cover;
+}
+
+a:link {
+  color: #a4a400;
+}
+
+#font-design {
+  font-family: monospace;
+  word-spacing: 2px;
+}
+
+.li-icon {
+  list-style-image: url("/recipeImages/pie_bullet.png");
+}
+
+.right-down {
+  text-align: right;
+}
