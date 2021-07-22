@@ -1,10 +1,10 @@
 body {
   font-family: Tahoma, Verdana, sans-serif;
-  background-image: url("/W2D3/images/background.png");
+  background-image: url("images/background.png");
   margin: 0;
 }
 .banner {
-  background: url("/W2D3/images/bannerbg.png") repeat-x;
+  background: url("images/bannerbg.png") repeat-x;
   text-align: center;
 }
 h1#header-design {
@@ -41,7 +41,7 @@ h1#header-design {
   font-weight: bold;
   font-size: 48pt;
   color: red;
-  background: url("/W2D3/images/rbg.png") repeat-x;
+  background: url("images/rbg.png") repeat-x;
 }
 
 .letf-header img {
