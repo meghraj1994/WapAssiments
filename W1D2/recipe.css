@@ -38,4 +38,14 @@ a:link {
 }
 .validator {
   text-align: right;
+  font-size: large;
+  font-size: 5%;
+  font-size: 5px;
 }
+p { 
+    color: red;
+    font    
+    text-color :red; 
+    fontSize: 14pt; 
+  }
+  
