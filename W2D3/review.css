@@ -4,7 +4,7 @@ body {
   margin: 0;
 }
 .banner {
-  background: url("images/bannerbg.png") repeat-x;
+  background: url("bannerbg.png") repeat-x;
   text-align: center;
 }
 h1#header-design {
