@@ -47,13 +47,18 @@ footer {
   height: 200px;
   padding: 1rem;
 }
-.grid-container {
+/* .grid-container {
   display: grid;
   grid-template-areas: "col1 col2 col3 ";
+} */
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "col1 col3"
+    "col2 col2";
 }
 @media only screen and (min-width: 600px) {
   .grid-container {
-    display: grid;
-    grid-template-areas: "col1 col2 col3 ";
+    grid-template-areas: "col1 col2 col2 col3";
   }
 }
