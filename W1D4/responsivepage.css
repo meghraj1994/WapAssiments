@@ -56,7 +56,4 @@ footer {
     display: grid;
     grid-template-areas: "col1 col2 col3 ";
   }
-  /* .grid-container {
-    grid-template-areas: "col1 col2 col2 col3";
-  } */
 }
