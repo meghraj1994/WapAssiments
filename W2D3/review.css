@@ -1,7 +1,7 @@
 body {
   font-family: Tahoma, Verdana, sans-serif;
   background-image: url("images/background.png");
-  margin: 0;
+  margin: 0px;
 }
 .banner {
   background: url("bannerbg.png") repeat-x;
@@ -78,7 +78,7 @@ h1#header-design {
 .reviews > p:last-child > img {
   float: left;
   margin: 0 5px 5px 0;
-}
+} 
 .reviewer-pub {
   font-style: italic;
 }
