@@ -1,9 +1,22 @@
+body {
+  background-color: lightblue;
+}
 .profile-pic {
+  display: grid;
   width: 155px;
   border-radius: 77px;
-  
+  margin-left: 45%;
 }
+section {
+  background-image: url(recipeImages/background.gif);
+  text-align: center;
+}
+
 h2 {
   color: blue;
   text-shadow: 2px 2px gray;
+  text-align: center;
+}
+ul {
+  list-style-type: square;
 }
