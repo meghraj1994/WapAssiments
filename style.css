@@ -1,5 +1,9 @@
 .profile-pic {
   width: 155px;
   border-radius: 77px;
-  align-items: center;
+  
+}
+h2 {
+  color: blue;
+  text-shadow: 2px 2px gray;
 }
