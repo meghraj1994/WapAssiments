@@ -90,9 +90,9 @@ myFunction('Meghraj',findLongestWord1(['I', 'AM', 'Meghraj'])));
 function filterLongWords(words, i) {
     return words.filter(w => w.length > i).toString();
 }
-console.log(filterLongWords(['India123', 'Nepal', 'USA'],5));
-console.log("Expected output of findLongestWords ['India123', 'Nepal', 'USA'] is India123 ",
- myFunction("India123", filterLongWords(['India123', 'Nepal', 'USA'],3)));
+console.log(filterLongWords(['Srilanka', 'Nepal', 'USA'],5));
+console.log("Expected output of findLongestWords ['Srilanka', 'Nepal', 'India'] is Srilanka ",
+ myFunction("Srilanka", filterLongWords(['Srilanka', 'Nepal', 'India'],5)));
 
 
 
