@@ -92,7 +92,11 @@ function filterLongWords(words, i) {
 }
 console.log(filterLongWords(['Srilanka', 'Nepal', 'USA'],5));
 console.log("Expected output of findLongestWords ['Srilanka', 'Nepal', 'India'] is Srilanka ",
+<<<<<<< HEAD
  myFunction("Srilanka", filterLongWords(['Srilanka', 'Nepal', 'India'],5)));
+=======
+ myFunction("Srilanka", filterLongWords(['Srilanka', 'Nepal', 'USA'],5)));
+>>>>>>> 79501f8691386f3872507d8a9e68b83d46a36d96
 
 
 
