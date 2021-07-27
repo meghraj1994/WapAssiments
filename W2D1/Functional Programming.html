@@ -72,27 +72,27 @@
 
       //Multiply function test
       describe("Multiplication of all element in array", function () {
-        it("Element passed on function [2,3,4,10] expected is 240", function () {
-          assert.equal(multiply([2, 3, 4, 10]), 240);
+        it("Element passed on function [1,2,3,4] expected is 24", function () {
+          assert.equal(multiply([1, 2, 3, 4]), 24);
         });
       });
 
       //String reverse
       describe("Reverse of Given String", function () {
-        it("Input= Narayan expected output=nayaraN", function () {
-          assert.equal(reverse("Narayan"), "nayaraN");
+        it("Input= India expected output=aidnI", function () {
+          assert.equal(reverse("India"), "aidnI");
         });
       });
 
       //Filter Long words
       describe("Filtering the word from array whose length is greater than given Number", function () {
-        it("input= [tom,john,manish,jaxon,don] ,3 output= [john,manish,jaxon]", function () {
+        it("input= [Meghraj,Raj,Sukanya,Anvi,Rim] ,3 output= [Meghraj,Sukanya,Anvi]", function () {
           assert.equal(
             filterLongWords(
-              ["tom", "john", "manish", "jaxon", "don"],
+              ["Meghraj", "Raj", "Sukanya", "Anvi", "Rim"],
               3
             ).toString(),
-            "john,manish,jaxon"
+            "Meghraj,Sukanya,Anvi"
           );
         });
       });
