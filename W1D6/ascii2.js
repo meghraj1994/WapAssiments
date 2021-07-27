@@ -3,31 +3,27 @@ var textArea, animDdl, sizeDdl, timer, startButton, stopButton, speed = 250, tur
 window.onload = function () {
     textArea = document.getElementById("text-area");
     animDdl = document.getElementById("animation");
-    sizeDdl = document.getElementById("fontsize");
-    turboChk = document.getElementById("turbo");
-
-    startButton = document.getElementById("start");
-    stopButton = document.getElementById("stop");
-
-    startButton.onclick = start;
-    stopButton.onclick = stop;
     animDdl.onchange = getFrames;
+    sizeDdl = document.getElementById("fontsize");
     sizeDdl.onchange = setSize;
+    turboChk = document.getElementById("turbo");
     turboChk.onchange = turbo;
-
+    startButton = document.getElementById("start");
+    startButton.onclick = start;
+    stopButton = document.getElementById("stop");
+    stopButton.onclick = stop;
 }
 
 function start() {
     var frames = textArea.value.split("=====\n");
-    var i = 0, l = frames.length;
+     var i = 0, l = frames.length;
     (function iterator() {
         textArea.value = frames[i];
-
-        if (++i >= l) {
+         if (++i >= l) {
             i = 0;
-        }
+           }
         timer = setTimeout(iterator, speed);
-    })();
+        })();
     stopButton.disabled = false;
     startButton.disabled = true;
 };
@@ -47,7 +43,7 @@ function getFrames() {
 }
 
 function setSize() {
-    var fontsize = sizeDdl.options[sizeDdl.selectedIndex].value;
+    var fontsize = sizeDdl.value;
     textArea.style.fontSize = fontsize;
 }
 
