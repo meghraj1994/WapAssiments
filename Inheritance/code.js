@@ -36,7 +36,7 @@ Teacher.prototype.teach = function (subject) {
 };
 
 let teacher = new Teacher();
-teacher.initialize("Undral", 25);
+teacher.initialize("Meghraj", 26);
 console.log(teacher.teach("WAP"));
 
 String.prototype.filter = filter;
