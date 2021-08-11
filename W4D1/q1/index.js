@@ -21,4 +21,4 @@ app.post("/add", (req, res) => {
   res.redirect("/");
 });
 
-app.listen(3000);
+app.listen(3000, console.log("this is running at port 3000"));
